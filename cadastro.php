@@ -2,6 +2,10 @@
 	session_start();
 ?>
 <html>
+<head>
+	<link rel="stylesheet" href="index.css">
+	<title>Cadastro</title>
+</head>
 <body>
 <?php
 	$login = "";

@@ -2,6 +2,10 @@
 	session_start();
 ?>
 <html>
+<head>
+	<link rel="stylesheet" href="index.css">
+	<title>Reservas</title>
+</head>
 <body>
 <?php
 	$login = "";
@@ -37,7 +41,6 @@
 		echo '<form action="/reservas.php" method="get">';
 		echo '<label for="busca">BUSCAR RESERVA:</label>';
 		echo '<input type="text" id="busca" name="busca" value="">';
-		echo '<input type="submit" value="BUSCAR">';
 		echo '<hr>';
 		echo '</form>';
 		try {

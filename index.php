@@ -2,6 +2,10 @@
 	session_start();
 ?>
 <html>
+<head>
+	<link rel="stylesheet" href="index.css">
+	<title>Login</title>
+</head>
 <body>
 	<form action="/index.php" method="post">
 		<label for="login">Login:</label><br>
